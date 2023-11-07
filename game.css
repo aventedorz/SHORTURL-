@@ -1,0 +1,98 @@
+body{
+    background-image: linear-gradient(to right,black,beige);
+}
+h1{
+    font-family: "Montserrat", sans-seri;
+    color: beige;
+    position: absolute;
+    left: 40%;
+    font-size: 65px;
+    margin: auto;
+}
+.guess1{
+    margin: auto;
+    padding: 300px 0;
+    font-family: "Montserrat", sans-seri;
+    color: beige;
+    position: absolute;
+    left: 10%;
+    font-size: 35px;
+    
+    
+}
+.guessbox{
+   
+    position: absolute;
+    left: 18%;
+    padding: 335px 0;
+    cursor: pointer;
+    font-size: 35px;
+
+
+}
+#no_of_guesses_left{
+    text-align: center;
+    font-family: "Montserrat", sans-seri;
+    font-size: 20px;
+}
+.hintbox{
+    width: 750px;
+    padding: 500px 0;
+    font-family: "Montserrat", sans-seri;
+    color: beige;
+    position: absolute;
+    left: 10%;
+    font-size: 20px;
+    
+}
+#dynamic_paragraph{
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.wordshouldbe{
+    font-family: "Montserrat", sans-seri;
+    font-size: 40px;
+    position: absolute;
+    left: 60%;
+    color: black;
+    padding: 120px;
+   width: 600px;
+
+}
+.buttons{
+    position: absolute;
+    left: 50%;
+    display: flex; 
+    gap: 10px;
+    width: 920px;
+    padding: 450px 0;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+.buttons button{
+
+        color:black;
+        font-size: 25px;
+        font-family: "Montserrat", sans-seri;
+        cursor: pointer;
+        outline: none;
+        padding: 7px;
+        border: none;
+        background:beige;
+        border-radius: 4px;
+       }
+#startbutton{
+    color:black;
+    font-size: 30px;
+    background:bisque;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    cursor:pointer;
+    position: absolute;
+    bottom: 0;
+    left: 49.5%;
+    transform: translateX(-50%);
+    border-radius: 4px;
+}

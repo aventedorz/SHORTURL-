@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="game.css">
+    <title>HANGMAN</title>
+</head>
+<body>
+    <script src="game.js"></script>
+    <H1>
+        HANGMAN
+    </H1>
+    <br>
+   <br><br><br>
+    <div class="guess1">
+        <p>NO OF WRONG GUESSES LEFT </p>
+        
+    </div>
+    <br>
+    <br>
+    <div class="guessbox">
+    <input type="number" id="no_of_guesses_left" value="6" readonly>
+    </div>
+    <div class="hintbox">
+        <h4 id="hintheading">HINT:</h4>
+        <div id="dynamic-paragraph">
+            
+        </div>
+
+    </div>
+    <table class="wordshouldbe">
+        <tbody id="table-body"></tbody>
+    </table>
+    <div class="buttons">
+        <button onclick="Inputguess('A')">A</button>
+        <button onclick="Inputguess('B')">B</button>
+        <button onclick="Inputguess('C')">C</button>
+        <button onclick="Inputguess('D')">D</button>
+        <button onclick="Inputguess('E')">E</button>
+        <button onclick="Inputguess('F')">F</button>
+        <button onclick="Inputguess('G')">G</button>
+        <button onclick="Inputguess('H')">H</button>
+        <button onclick="Inputguess('I')">I</button>
+        <button onclick="Inputguess('J')">J</button>
+        <button onclick="Inputguess('K')">K</button>
+        <button onclick="Inputguess('L')">L</button>
+        <button onclick="Inputguess('M')">M</button>
+        <button onclick="Inputguess('N')">N</button>
+        <button onclick="Inputguess('O')">O</button>
+        <button onclick="Inputguess('P')">P</button>
+        <button onclick="Inputguess('Q')">Q</button>
+        <button onclick="Inputguess('R')">R</button>
+        <button onclick="Inputguess('S')">S</button>
+        <button onclick="Inputguess('T')">T</button>
+        <button onclick="Inputguess('U')">U</button>
+        <button onclick="Inputguess('V')">V</button>
+        <button onclick="Inputguess('W')">W</button>
+        <button onclick="Inputguess('X')">X</button>
+        <button onclick="Inputguess('Y')">Y</button>
+        <button onclick="Inputguess('Z')">Z</button>
+    </div>
+    <br><br><br><br><br><br>
+    <button id="startbutton" onclick="tableUpdate()">START</button>
+</body>
+</html>
